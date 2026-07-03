@@ -11,4 +11,4 @@ def call (Map config = [:]) {
     docker build -t ${imageName}:${imageTag} -t  ${imageName}:latest -f ${dockerfile} ${context}
     
     """
-}
+} 
